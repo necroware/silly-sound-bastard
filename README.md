@@ -1,11 +1,11 @@
 # Silly Sound Bastard
 
-![Photo](longboard/photo.jpg)
-
 It is yet another clone of the well known Covox Speech Thing. I wanted to get
 some practice in EDA and what is one of the simplest part to make, which you
 could have fun with? If you are in retro community, you would understand, why it
 was a Covox clone.
+
+![Photo](longboard/photo.jpg)
 
 # What is special about it?
 
@@ -36,8 +36,6 @@ SW1    |1x     | Quad-Switch (like LCSC C559139)
 AUDIO1 |1x     | 3,5mm Audio jack port (like LCSC C145816)
 LPT    |1x     | DB25 parallel port M-plug
 
-LCSC is the parts distributor (see http:://lcsc.com)
-
 # There is a long and a short variants?
 
 ![Long Board](longboard/silly-sound-bastard-pcb.svg)
@@ -58,9 +56,11 @@ C2        |1x     | 2.2uF tantalum or electrolytic capacitor
 AUDIO1    |1x     | 3,5mm Audio jack port (like LCSC C18166)
 LPT       |1x     | DB25 parallel port M-plug
 
-LCSC is the parts distributor (see http:://lcsc.com)
+# How did I make it?
 
-
+I used [EasyEDA](https://easyeda.com/) to create this PCBs. If you want to
+derive from this work, you can find all the files in the project subfolders of
+the boards. To order the parts I used [LCSC](https://lcsc.com).
 
 
 
