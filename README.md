@@ -15,6 +15,11 @@ with some space for experiments. So I made it with a quad switch, three of which
 can be used to control bypass capacitors, to play with low-pass filtering and 
 one for switching between mono and (fake-)stereo sound.
 
+# How does it sound?
+
+I made a [video](https://youtu.be/DKLKtH_rQJU) on my Youtube chanel about this
+Covox clone.
+
 # Bill of materials
 
 I have a good news for someone, who is especially keen to solder. Instead of
