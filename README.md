@@ -27,11 +27,11 @@ can be directly soldered to the edge of the PCB.
 
 Part   | Count | Remarks
 -------|-------| ----------
-R1..R26|26x    | 1kOhm resistor
-C1     |1x     | 1uF tantalum capacitor
-C2     |1x     | 2.2uF tantalum capacitor
-C3     |1x     | 3.3uF tantalum capacitor
-C4     |1x     | 3.3uF electrolytic capacitor
+R1..R26|26x    | 7.5kOhm resistor
+C1     |1x     | 0.01uF tantalum capacitor
+C2     |1x     | 0.1uF tantalum capacitor
+C3     |1x     | 1.0uF tantalum capacitor
+C4     |1x     | 1.0uF electrolytic capacitor
 SW1    |1x     | Quad-Switch (like LCSC C559139)
 AUDIO1 |1x     | 3,5mm Audio jack port (like LCSC C145816)
 LPT    |1x     | DB25 parallel port M-plug
@@ -49,10 +49,10 @@ will need less parts and get a more compact solution.
 
 Part      | Count | Remarks
 ----------|-------| ----------
-R1..R8,R17|9x     | 2kOhm resistor
-R9..R16   |8x     | 1kOhm resistor
-C1        |1x     | 3.3uF electrolytic capacitor
-C2        |1x     | 2.2uF tantalum or electrolytic capacitor
+R1..R8,R17|9x     | 15kOhm resistor
+R9..R16   |8x     | 7.5kOhm resistor
+C1        |1x     | 0.1uF electrolytic capacitor
+C2        |1x     | 1uF tantalum or electrolytic capacitor
 AUDIO1    |1x     | 3,5mm Audio jack port (like LCSC C18166)
 LPT       |1x     | DB25 parallel port M-plug
 
