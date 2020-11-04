@@ -62,5 +62,17 @@ I used [EasyEDA](https://easyeda.com/) to create this PCBs. If you want to
 derive from this work, you can find all the files in the project subfolders of
 the boards. To order the parts I used [LCSC](https://lcsc.com).
 
+# Possible modifications
+
+It is reasonable to play around with another resistors and filter capacitors.
+The higher the resistors value, the less noise you will get through the parallel
+port. However, this also would mean less power on the audio output and necessity
+of an amplifier. If you want to use passive headphones, try to go with lower
+resistance. I used 1kOhm (and 2kOhm) resistors and the audio quality was still
+quite good. Also the low pass filter capacitors are variable. It depends very
+much on the speakers, what's the best, but I found, that it's not worth it to go
+over 1uF. Even then, filtering starts to be very aggressive. The higher resitor
+values you take, the lower capacitor values you should need.
+
 
 
