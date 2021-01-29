@@ -7,7 +7,7 @@ was a Covox clone.
 
 ![Photo](longboard/photo.jpg)
 
-# What is special about it?
+## What is special about it?
 
 Well, it is still a simple Covox clone. However, I wanted to make something
 brute, what you can solder easily, using some through holes parts, but still
@@ -15,12 +15,12 @@ with some space for experiments. So I made it with a quad switch, three of which
 can be used to control bypass capacitors, to play with low-pass filtering and 
 one for switching between mono and (fake-)stereo sound.
 
-# How does it sound?
+## How does it sound?
 
 I made a [video](https://youtu.be/DKLKtH_rQJU) on my Youtube chanel about this
 Covox clone.
 
-# Bill of materials
+## Bill of materials
 
 I have a good news for someone, who is especially keen to solder. Instead of
 using two types of resistors with 1/2 relation, I just used all the same types,
@@ -41,7 +41,7 @@ SW1    |1x     | Quad-Switch (like LCSC C559139)
 AUDIO1 |1x     | 3,5mm Audio jack port (like LCSC C145816)
 LPT    |1x     | DB25 parallel port M-plug
 
-# There is a long and a short variants?
+## There is a long and a short variants?
 
 ![Long Board](longboard/silly-sound-bastard-pcb.svg)
 ![Short Board](shortboard/silly-sound-bastard-pcb.svg)
@@ -61,13 +61,13 @@ C2        |1x     | 1uF tantalum or electrolytic capacitor
 AUDIO1    |1x     | 3,5mm Audio jack port (like LCSC C18166)
 LPT       |1x     | DB25 parallel port M-plug
 
-# How did I make it?
+## How did I make it?
 
 I used [EasyEDA](https://easyeda.com/) to create this PCBs. If you want to
 derive from this work, you can find all the files in the project subfolders of
 the boards. To order the parts I used [LCSC](https://lcsc.com).
 
-# Possible modifications
+## Possible modifications
 
 It is reasonable to play around with another resistors and filter capacitors.
 The higher the resistors value, the less noise you will get through the parallel
@@ -79,5 +79,7 @@ much on the speakers, what's the best, but I found, that it's not worth it to go
 over 1uF. Even then, filtering starts to be very aggressive. The higher resitor
 values you take, the lower capacitor values you should need.
 
+## Links
+* [Some theory by Eugeny Brychkov](http://kb.gr8bit.ru/KB0010/GR8BIT-KB0010-Adding-multimedia-capability-covox-device.html)
 
 
